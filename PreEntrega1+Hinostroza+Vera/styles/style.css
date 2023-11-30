@@ -1,0 +1,96 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    
+}
+
+.login {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 60%;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 40px;
+    background: #ccc;
+    background: linear-gradient(90deg,#2e3ef1,#91929e);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+a {
+    text-decoration: none;
+}
+  
+
+.class-h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(119, 119, 119);
+    color:  rgb(74, 74, 74);
+}
+
+.class-usuario , .class-password {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.class-usuario-input , .class-password-input  {
+    border: rgb(91, 91, 91) solid 2px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+
+
+.class-olvido {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.class-boton  {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.class-boton-input {
+    border: rgb(15, 15, 255) solid 2px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(65, 65, 247);
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.class-final  {
+border-top: 2px solid rgb(73, 71, 71);
+ font-size: 15px;
+}
+b{
+    color: rgb(48, 48, 48);
+    font-size: 13px;
+}
+
+
+
+
+
+

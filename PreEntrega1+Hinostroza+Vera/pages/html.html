@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>login</title>
+</head>
+<body>
+ 
+
+ <div class="login">
+  <div class="container-nav-logo">
+    <a href="../index.html"><h1>BancoDarios</h1></a>
+ </div>
+
+    <div class="class-h2"> 
+       <h2>Inicio de  Sesion</h2> 
+    </div>
+
+    <div class="class-usuario"> 
+     <input type="text" name="usuario" id="usuario" placeholder="usuario" class="class-usuario-input">
+    </div>
+
+    <div class="class-password"> 
+        <input type="password" name="password" id="password" placeholder="password" class="class-password-input">
+    </div>
+
+    <div class="class-olvido"> 
+        <a href="#">¿Olvido su contraseña?</a>
+    </div>
+
+    <div class="class-boton">
+      <input type="button" value="Iniciar" class="class-boton-input" id="iniciar-button">
+   </div>
+
+    <div class="class-final"> 
+      <b>¿No esta registrado?</b>
+     <a href="registrase.html">click para registrarse</a> 
+    </div>
+
+  </div>
+
+  <div id="mensaje" style="display: none;"></div>
+  <input type="text" id="entrada" style="display: none;">
+  <button id="botonAceptar" style="display: none;">Aceptar</button> 
+    
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
+<script src="../scripts/iniciar.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <script src="https://kit.fontawesome.com/dfa698f29b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/index.css" >
+    <title>Registrarse</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container-nav-logo">
+                <a href="../index.html"> <b>BancoDarios</b></a>
+            </div>
+        </nav>
+    </header>
+    <aside class="container-registro">
+        <div class="container-registro-hijo1">
+            <h1>¡Bienvenido <br> nuevamente!</h1>
+            <p>Si ya tienes una cuenta ingresa aquí</p>
+            <a href="html.html">Ingresar a mi cuenta</a>
+
+        </div>
+
+        <div class="container-registro-hijo2">
+            <div><h2>Registro de Usuario</h2></div>
+           <div>       
+             <form class="form-style" id="registro-form">
+                  <label for="nombre"> <i class="fa-regular fa-user"></i> </label>
+                 <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+             </form>
+             
+             <form class="form-style" id="registro-form">               
+                  <label for="email"> <i class="fa-regular fa-envelope"></i>  </label>
+                 <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+             </form>
+
+             <form class="form-style" id="registro-form">
+                  <label for="telefono"> <i class="fa-solid fa-phone"></i></label>
+                 <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+             </form>
+
+             <form class="form-style" id="registro-form">
+                  <label for="direccion"><i class="fa-regular fa-address-card"></i>  </label>
+                 <input type="text" id="direccion" name="direccion" placeholder="Dirección" required>
+             </form>
+
+             <form class="form-style" id="registro-form">    
+                  <label for="dni"> <i class="fa-regular fa-id-card"></i> </label>
+                 <input type="text" id="dni" name="dni" placeholder="DNI/Número de identificación" required>
+             </form>
+
+             <form class="form-style" id="registro-form">       
+                  <label for="contrasena"> <i class="fa-solid fa-lock"></i>  </label>
+                 <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+             </form>
+
+             <form class="form-style" id="registro-form">      
+                 <label for="confirmar_contrasena"> <i class="fa-solid fa-lock"></i>  </label>
+                 <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" placeholder="Confirmar contraseña " required>
+             </form>
+
+             <form class="boton-style" id="registro-form">     
+                <button type="button" id="registrar-button">Registrar</button>
+             </form>   
+          </div>  
+      </div> 
+        
+
+    </aside>
+
+    <div id="mensaje-confirmacion" style="display: none;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="../scripts/registrarse.js"></script>
+
+
+
+
+
+
+
+    
+</body>
+</html>
